@@ -1,7 +1,8 @@
 from cnnClassifier.config.configuration import ConfigurationManager
 from cnnClassifier.components.prepare_base_model import PrepareBaseModel
+from cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from cnnClassifier import logger
-import tensorflow as tf
+# import tensorflow as tf
 
 STAGE_NAME = "Prepare base model"
 
